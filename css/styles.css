@@ -1,0 +1,18 @@
+
+.gallery-list {
+  display: flex;
+  margin-top: 50px;
+  margin-left: -30px;
+  list-style: none;
+}
+
+.gallery-item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 3 - 20px)
+  }
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    }
